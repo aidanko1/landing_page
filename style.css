@@ -47,6 +47,10 @@ a {
 .content-1 {
     background-color: #1F2937;
     display: flex;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 86px;
+    padding-bottom: 86px;
 }
 
 .superbold, .subtext {
