@@ -2,6 +2,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0%;
+    border-left: #1F2937;
+    border-left-width: 40px;
+    border-right: #1F2937;
+    border-right-width: 40px;
 }
 
 /* header */
@@ -52,6 +56,9 @@ a {
     padding-bottom: 86px;
     display: flex;
     align-items: center;
+    flex-grow: 0;
+    gap: 20px;
+    justify-content: space-evenly;
 }
 
 .superbold, .subtext {
@@ -93,6 +100,7 @@ button {
     padding-left: 22px;
     padding-right: 22px;
     border-radius: 8px;
+    flex-shrink: 0;
 }
 
 /*content-2*/
@@ -163,8 +171,47 @@ button {
     font-size: 18px;
 }
 
+/*content-4*/
+.content-4 {
+    display: flex;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    margin: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 
+}
 
+.call {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.content-4 p1, .content-4 p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-4 p1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.content-4 p2 {
+    font-weight: 100;
+    font-size: 14px;
+    color: rgb(242, 242, 242);
+}
+
+.content-4 button {
+    border-color: #f9faf8;
+}
 
 /*footer*/
 .footer {
