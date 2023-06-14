@@ -4,12 +4,14 @@ body {
 }
 
 .header {
+    background-color: #1F2937;
     display: flex;
-    background-color: darkslateblue;
+    justify-content: space-between;
 }
 
 .site-name {
-    color: white;
+    color: #f9faf8;
     font-weight: bold;
     font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
 }
