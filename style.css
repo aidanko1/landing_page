@@ -94,3 +94,46 @@ button {
     padding-right: 22px;
     border-radius: 8px;
 }
+
+/*content-2*/
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.random {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.facts-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.facts p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    text-align: center;
+    width: 120px;
+}
+
+.placeholder {
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 8px;
+    width: 125px;
+    height: 125px;
+    margin: 0%;
+    flex-shrink: 0;
+}
